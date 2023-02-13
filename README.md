@@ -10,12 +10,12 @@ Data modeling, data engineering, and data analysis were completed for the analys
 <ul> •	Completed queries to answer key HR questions </ul>
 <hr>
 
-### Data Modeling
+## Data Modeling
 QuickDBD and pgAdmin were used to created the below ERDs.
-<img src = "images/PewlettHackard_db_ERD_QuickDBD.png">
-<img src = "images/PewlettHackard_db_ERD.png">
+<img src = "Images/PewlettHackard_db_ERD_QuickDBD.png">
+<img src = "Images/PewlettHackard_db_ERD.png">
 
-### Data Engineering
+## Data Engineering
 Below is the table schema developed for the database. The corresponding CSV files were then imported to each table.
 ```
 CREATE TABLE titles(
@@ -62,18 +62,18 @@ CREATE TABLE dept_emp(
 );
 ```
 
-### Data Analysis
+## Data Analysis
 Eight queries were run to generate the following reports:
-<ol><a href = "Query Results/Query 1_data-1676224140167.csv"> List of each employees’ number, last name, first name, sex, and salary </a></ol>
-<ol><a href = "Query Results/Query 2_data-1676227624276.csv"> List of the first name, last name, and hire date for employees hired in 1986 </a></ol>
-<ol><a href = "Query Results/Query 3_data-1676229890024.csv"> List of department managers – including their department number, department name, employee number, last name, and first name </a></ol>
-<ol><a href = "Query Results/Query 4_data-1676231835786.csv"> List of employees’ department numbers – including their employee number, last name, first name, and department name </a></ol>
-<ol><a href = "Query Results/Query 5_data-1676232646666.csv"> List of the first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B </a></ol>
-<ol><a href = "Query Results/Query 6_data-1676232994548.csv"> List of each employee in the Sales department – including their employee number, last name, and first name </a></ol>
-<ol><a href = "Query Results/Query 7_data-1676233191647.csv"> List of each employee in the Sales and Development departments – including their employee number, last name, first name, and department name </a></ol>
-<ol><a href = "Query Results/Query 8_data-1676234311246.csv"> List of the frequency counts, in descending order, of all the employee last names </a></ol>
+<li><a href = "Query Results/Query 1_data-1676224140167.csv"> 1. List of each employees’ number, last name, first name, sex, and salary </a></li>
+<li><a href = "Query Results/Query 2_data-1676227624276.csv"> 2. List of the first name, last name, and hire date for employees hired in 1986 </a></li>
+<li><a href = "Query Results/Query 3_data-1676229890024.csv"> 3. List of department managers – including their department number, department name, employee number, last name, and first name </a></li>
+<li><a href = "Query Results/Query 4_data-1676231835786.csv"> 4. List of employees’ department numbers – including their employee number, last name, first name, and department name </a></li>
+<li><a href = "Query Results/Query 5_data-1676232646666.csv"> 5. List of the first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B </a></li>
+<li><a href = "Query Results/Query 6_data-1676232994548.csv"> 6. List of each employee in the Sales department – including their employee number, last name, and first name </a></li>
+<li><a href = "Query Results/Query 7_data-1676233191647.csv"> 7. List of each employee in the Sales and Development departments – including their employee number, last name, first name, and department name </a></li>
+<li><a href = "Query Results/Query 8_data-1676234311246.csv"> 8. List of the frequency counts, in descending order, of all the employee last names </a></li>
 
-## Results - Queries and Outputs
+## Query Details
 <li><a href = "EmployeeSQL/Query #1.sql"> Query #1 </a></li>
 <li><a href = "EmployeeSQL/Query #2.sql"> Query #2 </a></li>
 <li><a href = "EmployeeSQL/Query #3.sql"> Query #3 </a></li>
@@ -84,7 +84,7 @@ Eight queries were run to generate the following reports:
 <li><a href = "EmployeeSQL/Query #8.sql"> Query #8 </a></li>
 
 ## Resources
-### Data Sources: 
+#### Data Sources: 
 departments.csv, dept_emp.csvdept_manager.csv, employees.csv, salaries.csv, titles.csv
-### Software: 
+#### Software: 
 SQL, PostgresSQL, pgAdmin, QuickDBD, VSCode
