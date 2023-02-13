@@ -63,15 +63,15 @@ CREATE TABLE dept_emp(
 ```
 
 ## Data Analysis
-Eight queries were run to generate the following reports:
-<li><a href = "Query Results/Query 1_data-1676224140167.csv"> 1. List of each employees’ number, last name, first name, sex, and salary </a></li>
-<li><a href = "Query Results/Query 2_data-1676227624276.csv"> 2. List of the first name, last name, and hire date for employees hired in 1986 </a></li>
-<li><a href = "Query Results/Query 3_data-1676229890024.csv"> 3. List of department managers – including their department number, department name, employee number, last name, and first name </a></li>
-<li><a href = "Query Results/Query 4_data-1676231835786.csv"> 4. List of employees’ department numbers – including their employee number, last name, first name, and department name </a></li>
-<li><a href = "Query Results/Query 5_data-1676232646666.csv"> 5. List of the first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B </a></li>
-<li><a href = "Query Results/Query 6_data-1676232994548.csv"> 6. List of each employee in the Sales department – including their employee number, last name, and first name </a></li>
-<li><a href = "Query Results/Query 7_data-1676233191647.csv"> 7. List of each employee in the Sales and Development departments – including their employee number, last name, first name, and department name </a></li>
-<li><a href = "Query Results/Query 8_data-1676234311246.csv"> 8. List of the frequency counts, in descending order, of all the employee last names </a></li>
+For the data analysis portion of the project, eight queries were run in the database to create the following reports:  
+<li><a href = "Query Results/Query 1_data-1676224140167.csv"> Complete Employee Listing - including employee number, last name, first name, sex, and salary </a></li>
+<li><a href = "Query Results/Query 2_data-1676227624276.csv"> Employees Hired in 1986 - including first name, last name, and hire date </a></li>
+<li><a href = "Query Results/Query 3_data-1676229890024.csv"> Department Managers – including their department number, department name, employee number, last name, and first name </a></li>
+<li><a href = "Query Results/Query 4_data-1676231835786.csv"> Employees’ Department Numbers – including their employee number, last name, first name, and department name </a></li>
+<li><a href = "Query Results/Query 5_data-1676232646666.csv"> Complete Hercules Listing - including the first name, last name, and sex of each employee with the first name Hercules and last name beginning with the letter B </a></li>
+<li><a href = "Query Results/Query 6_data-1676232994548.csv"> Sales Department Employees - including their employee number, last name, and first name </a></li>
+<li><a href = "Query Results/Query 7_data-1676233191647.csv"> Sales and Development Enployees – including their employee number, last name, first name, and department name </a></li>
+<li><a href = "Query Results/Query 8_data-1676234311246.csv"> List of Last Names - including frequency counts in descending order </a></li>
 
 ## Query Details
 <li><a href = "EmployeeSQL/Query #1.sql"> Query #1 </a></li>
