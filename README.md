@@ -4,7 +4,7 @@
 The purpose of this project was to analyze Company employees during the 1980s and 1990s. All that remains of the employee database from that time period were six CSV files.
 
 Data modeling, data engineering, and data analysis were completed for the analysis.  Specifically, the following steps were completed:
-<ul> •	Designed an SQL database (schema/ERD attached below) </ul>
+<ul> •	Designed an SQL database </ul>
 <ul> •	Created six tables to correspond to the six CSV files </ul>
 <ul> •	Imported data from the CSV files </ul>
 <ul> •	Completed queries to answer key HR questions </ul>
@@ -12,6 +12,7 @@ Data modeling, data engineering, and data analysis were completed for the analys
 
 ## Data Modeling
 QuickDBD and pgAdmin were used to created the below ERDs.
+
 <img src = "Images/PewlettHackard_db_ERD_QuickDBD.png">
 <img src = "Images/PewlettHackard_db_ERD.png">
 
@@ -63,15 +64,16 @@ CREATE TABLE dept_emp(
 ```
 
 ## Data Analysis
-For the data analysis portion of the project, eight queries were run in the database to create the following reports:  
-<li><a href = "Query Results/Query 1_data-1676224140167.csv"> Complete Employee Listing - including employee number, last name, first name, sex, and salary </a></li>
-<li><a href = "Query Results/Query 2_data-1676227624276.csv"> Employees Hired in 1986 - including first name, last name, and hire date </a></li>
-<li><a href = "Query Results/Query 3_data-1676229890024.csv"> Department Managers – including their department number, department name, employee number, last name, and first name </a></li>
-<li><a href = "Query Results/Query 4_data-1676231835786.csv"> Employees’ Department Numbers – including their employee number, last name, first name, and department name </a></li>
-<li><a href = "Query Results/Query 5_data-1676232646666.csv"> Complete Hercules Listing - including the first name, last name, and sex of each employee with the first name Hercules and last name beginning with the letter B </a></li>
-<li><a href = "Query Results/Query 6_data-1676232994548.csv"> Sales Department Employees - including their employee number, last name, and first name </a></li>
-<li><a href = "Query Results/Query 7_data-1676233191647.csv"> Sales and Development Enployees – including their employee number, last name, first name, and department name </a></li>
-<li><a href = "Query Results/Query 8_data-1676234311246.csv"> List of Last Names - including frequency counts in descending order </a></li>
+For the data analysis portion of the project, eight queries were run to generate the following reports:  
+<li><a href = "Query Results/Query 1_data-1676224140167.csv"> Complete Employee Listing (employee number, last & first name, sex, salary) </a></li>
+<li><a href = "Query Results/Query 2_data-1676227624276.csv"> Employees Hired in 1986 (first & last name, hire date) </a></li>
+<li><a href = "Query Results/Query 3_data-1676229890024.csv"> Department Managers (dept number, dept name, employee number, last & first name) </a></li>
+<li><a href = "Query Results/Query 4_data-1676231835786.csv"> Employees’ Department Numbers (employee number, last & first name, dept name) </a></li>
+<li><a href = "Query Results/Query 5_data-1676232646666.csv"> First Name 'Hercules' & Last Name 'B' Listing (first & last name, sex) </a></li>
+<li><a href = "Query Results/Query 6_data-1676232994548.csv"> Sales Department Employees (employee number, last & first name) </a></li>
+<li><a href = "Query Results/Query 7_data-1676233191647.csv"> Sales and Development Enployees (employee number, last & first name, dept name) </a></li>
+<li><a href = "Query Results/Query 8_data-1676234311246.csv"> List of Last Names (frequency counts in descending order) </a></li>
+
 
 ## Query Details
 <li><a href = "EmployeeSQL/Query #1.sql"> Query #1 </a></li>
@@ -82,6 +84,7 @@ For the data analysis portion of the project, eight queries were run in the data
 <li><a href = "EmployeeSQL/Query #6.sql"> Query #6 </a></li>
 <li><a href = "EmployeeSQL/Query #7.sql"> Query #7 </a></li>
 <li><a href = "EmployeeSQL/Query #8.sql"> Query #8 </a></li>
+
 
 ## Resources
 #### Data Sources: 
