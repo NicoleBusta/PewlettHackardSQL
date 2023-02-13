@@ -1,7 +1,6 @@
 # Pewlett Hackard SQL Analysis
 
 ## Overview of Project
-<hr>
 The purpose of this project was to analyze Company employees during the 1980s and 1990s. All that remains of the employee database from that time period were six CSV files.
 
 Data modeling, data engineering, and data analysis were completed for the analysis.  Specifically, the following steps were completed:
@@ -10,6 +9,7 @@ Data modeling, data engineering, and data analysis were completed for the analys
 <ul> •	Imported data from the CSV files </ul>
 <ul> •	Completed queries to answer key HR questions </ul>
 <hr>
+
 ### Data Modeling
 QuickDBD and pgAdmin were used to created the below ERDs.
 <img src = "images/PewlettHackard_db_ERD_QuickDBD.png">
@@ -58,7 +58,8 @@ CREATE TABLE dept_emp(
 	PRIMARY KEY (emp_no, dept_no),
 	FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
 	FOREIGN KEY (dept_no) REFERENCES departments(dept_no)
-);```
+);
+```
 
 ### Data Analysis
 Eight queries were run to generate the following reports:
